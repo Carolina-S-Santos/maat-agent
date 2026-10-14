@@ -105,7 +105,7 @@ python scripts/run_llm_judge_evaluation.py
 python scripts/analyze_llm_judge_results.py
 ```
 
-The judges (`openai/gpt-4.1` and `gemini/gemini-3.1-pro-preview`) never receive the name of the model that produced each explanation. The analysis script writes the per-criterion means, the cross-family comparison (which excludes judgments where the judge and the implementation share a provider), and raw and chance-corrected inter-judge agreement.
+The judges (`openai/gpt-4.1` and `gemini/gemini-3.1-pro-preview`) never receive the name of the model that produced each explanation. The analysis script writes the per-criterion means, the cross-family comparison (which excludes judgments where the judge and the implementation share a provider), and inter-judge agreement per criterion, both raw (exact match) and chance-corrected (Fleiss' kappa, which for two judges is equivalent to Scott's pi).
 
 ## Notes on reproducibility
 
@@ -119,4 +119,4 @@ If you use this code, please cite the article (full reference to be added after 
 
 ## License
 
-To be defined.
+The code in this repository is released under the MIT License (see `LICENSE`). The StudentLife dataset is not part of this repository and remains subject to its own terms of use.
