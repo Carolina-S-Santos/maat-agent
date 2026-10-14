@@ -1,0 +1,60 @@
+{
+  "questionnaire": {
+    "name": "PHQ-9",
+    "description": "Questionnaire about depressive symptoms over the last two weeks."
+  },
+  "response_scale": {
+    "0": "Not at all",
+    "1": "Several days",
+    "2": "More than half the days",
+    "3": "Nearly every day"
+  },
+  "items": {
+    "item_1": {
+      "label": "Little interest or pleasure in doing things"
+    },
+    "item_2": {
+      "label": "Feeling down, depressed, or hopeless"
+    },
+    "item_3": {
+      "label": "Trouble falling or staying asleep, or sleeping too much"
+    },
+    "item_4": {
+      "label": "Feeling tired or having little energy"
+    },
+    "item_5": {
+      "label": "Poor appetite or overeating"
+    },
+    "item_6": {
+      "label": "Feeling bad about yourself or that you are a failure or have let yourself or your family down"
+    },
+    "item_7": {
+      "label": "Trouble concentrating on things, such as reading the newspaper or watching television"
+    },
+    "item_8": {
+      "label": "Moving or speaking so slowly that other people could have noticed, or the opposite: being fidgety or restless"
+    },
+    "item_9": {
+      "label": "Thoughts that you would be better off dead or of hurting yourself"
+    }
+  },
+  "derived_fields": {
+    "total_score": {
+      "description": "Sum of the 9 item scores.",
+      "range": [
+        0,
+        27
+      ]
+    },
+    "severity_class_5": {
+      "description": "Five-level severity category derived from the total PHQ-9 score.",
+      "categories": {
+        "0-4": "minimal",
+        "5-9": "mild",
+        "10-14": "moderate",
+        "15-19": "moderately_severe",
+        "20-27": "severe"
+      }
+    }
+  }
+}

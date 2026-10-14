@@ -1,0 +1,12 @@
+criterion,judges,items_with_ratings,items_with_at_least_2_judges,items_with_all_judges,average_pairwise_agreement,all_judges_exact_agreement,fleiss_kappa_complete_items
+supported_by_data,2,56,56,56,0.7321,0.7321,-0.0300
+sensor_phq9_integration,2,56,56,56,0.3393,0.3393,-0.2766
+evidence_quality,2,56,56,56,0.5536,0.5536,0.0912
+explanatory_power,2,56,56,56,0.6071,0.6071,0.2273
+clinical_plausibility,2,56,56,56,0.9821,0.9821,-0.0090
+extrapolation,2,56,56,56,0.5714,0.5714,-0.0500
+uncertainty_missing_data,2,56,56,56,0.8750,0.8750,-0.0580
+clarity,2,56,56,56,0.7143,0.7143,-0.1667
+clinical_usefulness,2,56,56,56,0.5536,0.5536,0.0774
+missing_relevant_information,2,56,56,56,0.5714,0.5714,0.1847
+overall_assessment,2,56,56,56,0.4821,0.4821,-0.0065
